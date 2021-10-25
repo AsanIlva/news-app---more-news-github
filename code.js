@@ -1,7 +1,7 @@
 //Fetch for news for several catagories from free mediastack subscription limited to 500 api calls
 let API_KEY = "";
 //http://api.mediastack.com/v1/news?countries=us,in&access_key="+API_KEY+"&categories=
-let newsAPI = "http://api.mediastack.com/v1/news?countries=us,in&access_key=b4ee083bda9fbe5c973c1deba481b67f&limit=4"+API_KEY+"&categories=";
+let newsAPI = "https://bootcamp-cors-proxy.herokuapp.com/http://api.mediastack.com/v1/news?access_key=0278e9eb0d1243941cd5e996a18101f7&countries=au,us&limit=4"+API_KEY+"&categories=";
 let dummyImage = "dummy-image.jpg";
 
 //The first element of the selector is returned
